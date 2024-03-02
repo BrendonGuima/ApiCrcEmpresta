@@ -17,7 +17,7 @@ public class EmprestimoController : Controller
         _context = context;
     }
 
-    [HttpPost("{id}")]
+    [HttpPost("{id} (Emprestar)")]
     public async Task<ActionResult> LendForId(int id)
     {
         var modelI = await _context.Items.FindAsync(id);
@@ -34,6 +34,23 @@ public class EmprestimoController : Controller
         _context.Items.Remove(modelI);
         await _context.SaveChangesAsync();
         return Ok(modelI);
+    }
+    
+    [HttpPost("{id}  (Devolver)")]
+    public async Task<ActionResult> GiveBack(int id)
+    {
+        var modelL = await _context.Emprestimo.FindAsync(id);
+        if (modelL == null) NotFound();
+        var item = new Items()
+        {
+            Name = modelL.Name,
+            Code = modelL.Code,
+            CategoryId = modelL.CategoryId
+        };
+        _context.Items.Add(item);
+        _context.Emprestimo.Remove(modelL);
+        await _context.SaveChangesAsync();
+        return Ok(modelL);
     }
 
     [HttpGet]

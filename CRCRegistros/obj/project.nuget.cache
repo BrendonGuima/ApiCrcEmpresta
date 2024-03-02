@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v68ZD3BGJ52uohpDwjhrHab72MupoAC72xK8YVR+aLziwqbUTaViYp2jbq1cY56LbibEK/BVtqHmDtiQHFGTRA==",
+  "dgSpecHash": "5b+l0IQ0ZNad3EUly5iACUzA5jJWokNRb0dTXkZka9b8cNmWvUptS8+agwDsIQ4nHgq9Kwa3w/YsGfrechCWUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Brend\\RiderProjects\\CRCRegistros\\CRCRegistros.csproj",
+  "projectFilePath": "C:\\Users\\Brend\\RiderProjects\\Projeto\\CRCRegistros\\CRCRegistros.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brend\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Brend\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
