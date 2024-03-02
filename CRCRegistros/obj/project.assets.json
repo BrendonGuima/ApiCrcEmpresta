@@ -11160,11 +11160,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Brend\\RiderProjects\\CRCRegistros\\CRCRegistros.csproj",
+      "projectUniqueName": "C:\\Users\\Brend\\RiderProjects\\Projeto\\CRCRegistros\\CRCRegistros.csproj",
       "projectName": "CRCRegistros",
-      "projectPath": "C:\\Users\\Brend\\RiderProjects\\CRCRegistros\\CRCRegistros.csproj",
+      "projectPath": "C:\\Users\\Brend\\RiderProjects\\Projeto\\CRCRegistros\\CRCRegistros.csproj",
       "packagesPath": "C:\\Users\\Brend\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Brend\\RiderProjects\\CRCRegistros\\obj\\",
+      "outputPath": "C:\\Users\\Brend\\RiderProjects\\Projeto\\CRCRegistros\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Brend\\AppData\\Roaming\\NuGet\\NuGet.Config"

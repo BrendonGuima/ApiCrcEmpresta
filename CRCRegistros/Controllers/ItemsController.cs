@@ -18,29 +18,12 @@ public class ItemsController : Controller
         _context = context;
     }
 
-    [HttpPost("    (Criar Item)")]
+    [HttpPost]
     public async Task<ActionResult> Create(Items model)
     {
         _context.Items.Add(model);
         await _context.SaveChangesAsync();
         return Ok(model);
-    }
-    
-    [HttpPost("{id}  (Devolução)")]
-    public async Task<ActionResult> GiveBack(int id)
-    {
-        var modelL = await _context.Emprestimo.FindAsync(id);
-        if (modelL == null) NotFound();
-        var item = new Items()
-        {
-            Name = modelL.Name,
-            Code = modelL.Code,
-            CategoryId = modelL.CategoryId
-        };
-        _context.Items.Add(item);
-        _context.Emprestimo.Remove(modelL);
-        await _context.SaveChangesAsync();
-        return Ok(modelL);
     }
     
     [HttpGet]
