@@ -1,15 +1,23 @@
-using Microsoft.EntityFrameworkCore;
+using MongoDB.Driver;
 
 namespace CRCRegistros.Models;
 
-public class AppDbContext : DbContext
+public class MongoDbContext
 {
-    public AppDbContext(DbContextOptions options) : base(options)
+  private readonly IMongoDatabase _database;
+  private readonly IMongoCollection<Users> _usersCollection;
+
+    public MongoDbContext(IConfiguration configuration)
     {
+        var connectionString = configuration.GetConnectionString("MongoDB");
+        var mongoClient = new MongoClient(connectionString);
+        _database = mongoClient.GetDatabase("CrcEmpresta");
     }
 
-    public DbSet<Users> Users { get; set; }
-    public DbSet<Items> Items { get; set; }
-    public DbSet<Category> Category { get; set; }
-    public DbSet<Emprestimo> Emprestimo { get; set; }
+    public async Task<IEnumerable<Users>> GetAllUsers()
+    {
+        return await _usersCollection.Find(_ => true).ToListAsync();
+    }
+    public IMongoCollection<Users> Usuarios => _database.GetCollection<Users>("Usuarios");
+
 }

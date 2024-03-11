@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRCRegistros")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b53847c97a7cdc92eebc06cb7d28dbadc6f5281a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRCRegistros")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRCRegistros")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

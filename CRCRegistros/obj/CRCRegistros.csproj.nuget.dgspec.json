@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Brend\\RiderProjects\\Projeto\\CRCRegistros\\CRCRegistros.csproj": {}
+    "/workspaces/ApiCrcEmpresta/CRCRegistros/CRCRegistros.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Brend\\RiderProjects\\Projeto\\CRCRegistros\\CRCRegistros.csproj": {
+    "/workspaces/ApiCrcEmpresta/CRCRegistros/CRCRegistros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brend\\RiderProjects\\Projeto\\CRCRegistros\\CRCRegistros.csproj",
+        "projectUniqueName": "/workspaces/ApiCrcEmpresta/CRCRegistros/CRCRegistros.csproj",
         "projectName": "CRCRegistros",
-        "projectPath": "C:\\Users\\Brend\\RiderProjects\\Projeto\\CRCRegistros\\CRCRegistros.csproj",
-        "packagesPath": "C:\\Users\\Brend\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brend\\RiderProjects\\Projeto\\CRCRegistros\\obj\\",
+        "projectPath": "/workspaces/ApiCrcEmpresta/CRCRegistros/CRCRegistros.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/ApiCrcEmpresta/CRCRegistros/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Brend\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,6 +65,10 @@
               "target": "Package",
               "version": "[6.0.16, )"
             },
+            "MongoDb.Driver": {
+              "target": "Package",
+              "version": "[2.24.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -76,6 +85,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -84,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }
