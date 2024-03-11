@@ -9,14 +9,13 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace CRCRegistros.Controllers;
 
-[Authorize]
 [Route("api/[Controller]")]
 [ApiController]
 public class UsersController : Controller
 {
-    private readonly AppDbContext _context;
+    private readonly MongoDbContext _context;
     
-    public UsersController(AppDbContext context)
+    public UsersController(MongoDbContext context)
     {
         _context = context;
     }
@@ -24,29 +23,22 @@ public class UsersController : Controller
     [HttpGet]
     public async Task<ActionResult> GetAll()
     { 
-        var model = await _context.Users.ToListAsync();
+        var model = await _context.GetAllUsers();
         return Ok(model);
     }
 
-    [HttpPost]
-    public async Task<ActionResult> Create(Users model)
-    {
-        _context.Users.Add(model);
-        await _context.SaveChangesAsync();
-        return Ok(model);
-    }
 
-    [AllowAnonymous]
-    [HttpPost("authenticate")]
-    public async Task<ActionResult> Authenticate(AuthenticateDto model)
-    {
-        var userDb = await _context.Users.FirstOrDefaultAsync(n => n.Name == model.Name);
-        if (userDb == null || userDb.Password != model.Password) return Unauthorized();
+   // [AllowAnonymous]
+   // [HttpPost("authenticate")]
+//    public async Task<ActionResult> Authenticate(AuthenticateDto model)
+  //  {
+  //      var userDb = await _context.Usuarios.(n => n.Name == model.Name);
+  //      if (userDb == null || userDb.Password != model.Password) return Unauthorized();
+//
+ //       var jwt = JwtTokenGerenate(userDb);
 
-        var jwt = JwtTokenGerenate(userDb);
-
-        return Ok(new { JwtToken = jwt });
-    }
+//        return Ok(new { JwtToken = jwt });
+ //   }
 
     private string JwtTokenGerenate(Users model)
     {
