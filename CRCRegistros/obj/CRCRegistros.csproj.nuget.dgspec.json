@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/ApiCrcEmpresta/CRCRegistros/CRCRegistros.csproj": {}
+    "C:\\Users\\Administrador\\Desktop\\ApiCrcEmpresta-main\\CRCRegistros\\CRCRegistros.csproj": {}
   },
   "projects": {
-    "/workspaces/ApiCrcEmpresta/CRCRegistros/CRCRegistros.csproj": {
+    "C:\\Users\\Administrador\\Desktop\\ApiCrcEmpresta-main\\CRCRegistros\\CRCRegistros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/ApiCrcEmpresta/CRCRegistros/CRCRegistros.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\Desktop\\ApiCrcEmpresta-main\\CRCRegistros\\CRCRegistros.csproj",
         "projectName": "CRCRegistros",
-        "projectPath": "/workspaces/ApiCrcEmpresta/CRCRegistros/CRCRegistros.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/ApiCrcEmpresta/CRCRegistros/obj/",
+        "projectPath": "C:\\Users\\Administrador\\Desktop\\ApiCrcEmpresta-main\\CRCRegistros\\CRCRegistros.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Desktop\\ApiCrcEmpresta-main\\CRCRegistros\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,20 +49,6 @@
               "target": "Package",
               "version": "[6.0.5, )"
             },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.5, )"
-            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.16, )"
@@ -85,20 +73,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.27, 6.0.27]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[6.0.27, 6.0.27]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.27, 6.0.27]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -107,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
