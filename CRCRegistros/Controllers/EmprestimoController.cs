@@ -1,7 +1,6 @@
 using CRCRegistros.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace DefaultNamespace;
 
@@ -10,31 +9,31 @@ namespace DefaultNamespace;
 [ApiController]
 public class EmprestimoController : Controller
 {
-//    private readonly AppDbContext _context;
+    private readonly MongoDbContext _context;
 
- //   public EmprestimoController(AppDbContext context)
- //   {
- //       _context = context;
-  //  }
+    public EmprestimoController(MongoDbContext context)
+    {
+        _context = context;
+    }
 
- //   [HttpPost("{id} (Emprestar)")]
- //   public async Task<ActionResult> LendForId(int id)
- //   {
+//   [HttpPost("{id} (Emprestar)")]
+//   public async Task<ActionResult> LendForId(int id)
+  //  {
   //      var modelI = await _context.Items.FindAsync(id);
- //       if (modelI == null) NotFound();
+  //      if (modelI == null) NotFound();
 
-   //     var item = new Emprestimo()
+ //       var item = new Emprestimo()
  //       {
-  //          CategoryId = modelI.CategoryId,
-  //          Name = modelI.Name,
-  //          Code = modelI.Code,
- //           Date = DateTime.Now
-  //      };
- //       _context.Emprestimo.Add(item);
+ //           CategoryId = modelI.CategoryId,
+ //           Name = modelI.Name,
+ //           Code = modelI.Code,
+ //          Date = DateTime.Now
+ //       };
+  //      _context.Emprestimo.Add(item);
   //      _context.Items.Remove(modelI);
-//        await _context.SaveChangesAsync();
+ //       await _context.SaveChangesAsync();
  //       return Ok(modelI);
- //   }
+//    }
     
  //   [HttpPost("{id}  (Devolver)")]
  //   public async Task<ActionResult> GiveBack(int id)
