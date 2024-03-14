@@ -9,7 +9,6 @@ using MongoDB.Driver;
 
 namespace CRCRegistros.Controllers;
 
-[Authorize]
 [Route("api/[Controller]")]
 [ApiController]
 public class UsersController : Controller
