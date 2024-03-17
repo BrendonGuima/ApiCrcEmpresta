@@ -1,6 +1,7 @@
 using CRCRegistros.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using ZstdSharp.Unsafe;
 
 namespace CRCRegistros.Controllers;
 
@@ -9,20 +10,20 @@ namespace CRCRegistros.Controllers;
 [ApiController]
 public class CategoryController : Controller
 {
-//    private readonly AppDbContext _context;
+    private readonly MongoDbContext _context;
 
-//    public CategoryController(AppDbContext context)
- //   {
-//        _context = context;
-//    }
+   public CategoryController(MongoDbContext context)
+    {
+        _context = context;
+    }
 
-//    [HttpPost]
-//    public async Task<ActionResult> Create(Category model)
- //   {
-//        _context.Category.Add(model);
- //       await _context.SaveChangesAsync();
- //       return Ok(model);
-//    }
+    [HttpPost]
+    [Route("Create")]
+    public async Task<ActionResult> Create(Category model)
+    {
+     await _context.CreateCategory(model);
+        return Ok(model);
+    }
 
 //    [HttpDelete("{id}")]
  //   public async Task<ActionResult> Delete(int id)
@@ -44,11 +45,12 @@ public class CategoryController : Controller
  //       return Ok(model);
 //    }
     
- //   [HttpGet]
- //   public async Task<ActionResult> GetAll()
- //   {
-//        var model = await _context.Category.Include(d => d.Item).ToListAsync();
- //       return Ok(model);
- //   }
+    [HttpGet]
+    [Route("GetAll")]
+    public async Task<ActionResult> GetAll()
+    {
+        var model = await _context.GetAllCategorys();
+        return Ok(model);
+    }
 
 }

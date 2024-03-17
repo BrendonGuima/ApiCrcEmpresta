@@ -1,16 +1,20 @@
 using System.ComponentModel.DataAnnotations;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace CRCRegistros.Models;
 
 public class Items
 {
-    [Key]
-    public int Id { get; set; }
-    [Required]
+    [BsonId]
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string Id { get; set; }
+    
     public string Name { get; set; }
-    [Required]
+    
     public string Code { get; set; }
-    [Required]
-    public int CategoryId { get; set; }
+    
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string CategoryId { get; set; }
 }
 

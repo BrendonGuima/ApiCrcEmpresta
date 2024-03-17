@@ -2,6 +2,7 @@ using System.Security.Cryptography;
 using CRCRegistros.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using MongoDB.Driver;
 
 namespace CRCRegistros.Controllers;
 
@@ -10,36 +11,52 @@ namespace CRCRegistros.Controllers;
 [ApiController]
 public class ItemsController : Controller
 {
-//    private readonly AppDbContext _context;
+    private readonly MongoDbContext _context;
 
- //   public ItemsController(AppDbContext context)
- //   {
- //       _context = context;
- //   }
+    public ItemsController(MongoDbContext context)
+    {
+        _context = context;
+    }
 
- //   [HttpPost]
- //   public async Task<ActionResult> Create(Items model)
- //   {
- //       _context.Items.Add(model);
- //       await _context.SaveChangesAsync();
- //       return Ok(model);
- //   }
-//    
- //   [HttpGet]
- //   public async Task<ActionResult> GetAll()
-  //  {
-//        var model = await _context.Items.ToListAsync();
-  //      return Ok(model);
- //   }
+    [HttpPost]
+    [Route("Create")]
+    public async Task<IActionResult> CreateItemAndLinkToCategory(Items item)
+    {
+        await _context.Items.InsertOneAsync(item);
 
- //   [HttpDelete("{id}")]
-//    public async Task<ActionResult> Delete(int id)
-  //  {
- //       var model = await _context.Items.FindAsync(id);
-  //      if (model == null) NotFound();
- //       _context.Items.Remove(model);
-  //      await _context.SaveChangesAsync();
-  //      return NoContent();
+        var categoryFilter = Builders<Category>.Filter.Eq(c => c.Id, item.CategoryId);
+        var category = await _context.Category.FindOneAndUpdateAsync(
+            categoryFilter,
+            Builders<Category>.Update.Push(c => c.Items, item),
+            new FindOneAndUpdateOptions<Category> { ReturnDocument = ReturnDocument.After }
+        );
 
- //   }
+        return Ok(item);
+    }
+    
+    
+    [HttpGet]
+    [Route("GetAll")]
+    public async Task<ActionResult> GetAll()
+    {
+        var model = await _context.GetAllItems();
+        return Ok(model);
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<ActionResult> Delete(string id)
+    {
+        var item = await _context.Items.FindOneAndDeleteAsync(x => x.Id == id);
+        if (item == null) return NotFound();
+
+        var updateDefinition = Builders<Category>.Update.PullFilter(c => c.Items, i => i.Id == id);
+        var category = await _context.Category.FindOneAndUpdateAsync(
+            Builders<Category>.Filter.Where(c => c.Items.Any(i => i.Id == id)),
+            updateDefinition,
+            new FindOneAndUpdateOptions<Category> { ReturnDocument = ReturnDocument.After });
+
+        if (category == null) return NotFound();
+
+        return NoContent();
+    }
 }
