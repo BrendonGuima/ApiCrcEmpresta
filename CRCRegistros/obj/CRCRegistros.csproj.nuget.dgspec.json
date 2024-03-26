@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\crcmongo\\ApiCrcEmpresta\\CRCRegistros\\CRCRegistros.csproj": {}
+    "C:\\Users\\Brend\\OneDrive\\Área de Trabalho\\ApiCRC\\ApiCrcEmpresta\\CRCRegistros\\CRCRegistros.csproj": {}
   },
   "projects": {
-    "C:\\crcmongo\\ApiCrcEmpresta\\CRCRegistros\\CRCRegistros.csproj": {
+    "C:\\Users\\Brend\\OneDrive\\Área de Trabalho\\ApiCRC\\ApiCrcEmpresta\\CRCRegistros\\CRCRegistros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\crcmongo\\ApiCrcEmpresta\\CRCRegistros\\CRCRegistros.csproj",
+        "projectUniqueName": "C:\\Users\\Brend\\OneDrive\\Área de Trabalho\\ApiCRC\\ApiCrcEmpresta\\CRCRegistros\\CRCRegistros.csproj",
         "projectName": "CRCRegistros",
-        "projectPath": "C:\\crcmongo\\ApiCrcEmpresta\\CRCRegistros\\CRCRegistros.csproj",
+        "projectPath": "C:\\Users\\Brend\\OneDrive\\Área de Trabalho\\ApiCRC\\ApiCrcEmpresta\\CRCRegistros\\CRCRegistros.csproj",
         "packagesPath": "C:\\Users\\Brend\\.nuget\\packages\\",
-        "outputPath": "C:\\crcmongo\\ApiCrcEmpresta\\CRCRegistros\\obj\\",
+        "outputPath": "C:\\Users\\Brend\\OneDrive\\Área de Trabalho\\ApiCRC\\ApiCrcEmpresta\\CRCRegistros\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Brend\\AppData\\Roaming\\NuGet\\NuGet.Config"
