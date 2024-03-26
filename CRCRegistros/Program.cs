@@ -58,6 +58,14 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
+// Configure CORS
+app.UseCors(builder =>
+{
+    builder.WithOrigins("https://localhost:7013")
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+});
+
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JsKc1FZZ5gcczVXy5vv/6vG4+lcOxKkMsg8ZZBZ4luMBjyJ1emr+UpKwJSsgJC1P34UDAVySJJ6W93h7siftCQ==",
+  "dgSpecHash": "JknqbA9SChqEOOsWODWZV8ziBY/RGLnd5rYX1J1rEGaJRZGlSXoknImw8FUSOTC+szC6P6i2Y9kBgY4Wi2Fmng==",
   "success": true,
-  "projectFilePath": "C:\\crcmongo\\ApiCrcEmpresta\\CRCRegistros\\CRCRegistros.csproj",
+  "projectFilePath": "C:\\Users\\Brend\\OneDrive\\Área de Trabalho\\ApiCRC\\ApiCrcEmpresta\\CRCRegistros\\CRCRegistros.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brend\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Brend\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
