@@ -1714,3 +1714,4 @@ C:\Users\Brend\OneDrive\Área de Trabalho\ApiCRC\ApiCrcEmpresta\CRCRegistros\obj
 C:\Users\Brend\OneDrive\Área de Trabalho\ApiCRC\ApiCrcEmpresta\CRCRegistros\obj\Debug\net6.0\CRCRegistros.pdb
 C:\Users\Brend\OneDrive\Área de Trabalho\ApiCRC\ApiCrcEmpresta\CRCRegistros\obj\Debug\net6.0\CRCRegistros.genruntimeconfig.cache
 C:\Users\Brend\OneDrive\Área de Trabalho\ApiCRC\ApiCrcEmpresta\CRCRegistros\obj\Debug\net6.0\ref\CRCRegistros.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\apicrc\ApiCrcEmpresta\CRCRegistros\bin\Debug\net6.0\SwaggerThemes.dll

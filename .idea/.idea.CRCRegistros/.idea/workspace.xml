@@ -9,17 +9,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8676081a-f40f-45a2-a05b-b1934f7571b5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CRCRegistros/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CRCRegistros/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CRCRegistros/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRCRegistros/CRCRegistros.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/CRCRegistros.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRCRegistros/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/Controllers/CategoryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRCRegistros/Controllers/ItemsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/Controllers/ItemsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRCRegistros/Controllers/EmprestimoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/Controllers/ItemLendingController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRCRegistros/Controllers/ItemsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/Controllers/ItemController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRCRegistros/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/Controllers/UserController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRCRegistros/Models/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/Models/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRCRegistros/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/Models/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRCRegistros/Models/Emprestimo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/Models/ItemLending.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRCRegistros/Models/Items.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/Models/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRCRegistros/Models/Users.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRCRegistros/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRCRegistros/bin/Debug/net6.0/CRCRegistros.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/bin/Debug/net6.0/CRCRegistros.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRCRegistros/bin/Debug/net6.0/CRCRegistros.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/bin/Debug/net6.0/CRCRegistros.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRCRegistros/bin/Debug/net6.0/CRCRegistros.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/bin/Debug/net6.0/CRCRegistros.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRCRegistros/obj/CRCRegistros.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/obj/CRCRegistros.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/CRCRegistros.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/CRCRegistros.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/CRCRegistros.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/CRCRegistros.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/CRCRegistros.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/CRCRegistros.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/CRCRegistros.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/CRCRegistros.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/CRCRegistros.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/CRCRegistros.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/CRCRegistros.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/CRCRegistros.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/CRCRegistros.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/CRCRegistros.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/CRCRegistros.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/CRCRegistros.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/ref/CRCRegistros.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/ref/CRCRegistros.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/refint/CRCRegistros.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRCRegistros/obj/Debug/net6.0/refint/CRCRegistros.dll" afterDir="false" />
@@ -56,6 +66,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "configurable.group.tools",
     "vue.rearranger.settings.migration": "true"
   },
@@ -107,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711557666711</updated>
-      <workItem from="1711557668122" duration="5268000" />
+      <workItem from="1711557668122" duration="17768000" />
     </task>
     <servers />
   </component>

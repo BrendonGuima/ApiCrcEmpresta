@@ -2,7 +2,7 @@ using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 namespace CRCRegistros.Models;
 
-public class Users
+public class User
 {
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]

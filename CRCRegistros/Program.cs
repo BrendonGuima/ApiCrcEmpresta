@@ -3,6 +3,7 @@ using CRCRegistros.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using SwaggerThemes;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -67,6 +68,7 @@ app.UseCors(builder =>
 });
 
     app.UseSwagger();
+    app.UseSwaggerThemes(Theme.OneDark);
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "API CRCEmpresta V1");

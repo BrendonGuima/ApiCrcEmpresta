@@ -1,7 +1,6 @@
 using CRCRegistros.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using ZstdSharp.Unsafe;
 using MongoDB.Driver;
 
 namespace CRCRegistros.Controllers;
@@ -13,7 +12,6 @@ public class CategoryController : Controller
 {
     private readonly MongoDbContext _context;
     
-
    public CategoryController(MongoDbContext context)
     {
         _context = context;
@@ -22,11 +20,11 @@ public class CategoryController : Controller
     [HttpPost("Create")]
     public async Task<ActionResult> Create(Category model)
     {
-        await _context.CreateCategory(model);
+        await _context.Category.InsertOneAsync(model);
         return Ok(model);
     }
 
-    [HttpPut("{id}")]
+    [HttpPut("Edit/{id}")]
     public async Task<ActionResult> UpdateCategoryName(string id, [FromBody] Category newCategory)
     {
         var category = await _context.Category.Find(c => c.Id == id).FirstOrDefaultAsync();
@@ -38,7 +36,7 @@ public class CategoryController : Controller
     
     
 
-    [HttpDelete("{id}")]
+    [HttpDelete("Delete/{id}")]
     public async Task<ActionResult> Delete(string id)
     {
         await _context.Items.DeleteManyAsync(x => x.CategoryId == id);
@@ -60,10 +58,10 @@ public class CategoryController : Controller
         return Ok(category);
     }
     
-    [HttpGet("Getall")]
+    [HttpGet("GetAll")]
     public async Task<ActionResult> GetAll()
     {
-        var model = await _context.GetAllCategorys();
+        var model = await _context.Category.Find(_ => true).ToListAsync();
         return Ok(model);
     }
 

@@ -9,18 +9,18 @@ namespace CRCRegistros.Controllers;
 [Authorize]
 [Route("api/[Controller]")]
 [ApiController]
-public class ItemsController : Controller
+public class ItemController : Controller
 {
     private readonly MongoDbContext _context;
     
-    public ItemsController(MongoDbContext context)
+    public ItemController(MongoDbContext context)
     {
         _context = context;
     }
 
     [HttpPost]
     [Route("Create")]
-    public async Task<IActionResult> CreateItemAndLinkToCategory(Items item)
+    public async Task<IActionResult> CreateItemAndLinkToCategory(Item item)
     {
         await _context.Items.InsertOneAsync(item);
 
@@ -34,8 +34,8 @@ public class ItemsController : Controller
         return Ok(item);
     }
     
-    [HttpPut("{id}")]
-    public async Task<ActionResult> UpdateItemName(string id, [FromBody] Items newItem)
+    [HttpPut("Edit/{id}")]
+    public async Task<ActionResult> UpdateItemName(string id, [FromBody] Item newItem)
     {
         var item = await _context.Items.Find(i => i.Id == id).FirstOrDefaultAsync();
         if (item == null) return NotFound();
@@ -46,7 +46,7 @@ public class ItemsController : Controller
         return NoContent();
     }
     
-    [HttpDelete("{id}")]
+    [HttpDelete("Delete/{id}")]
     public async Task<ActionResult> Delete(string id)
     {
         var item = await _context.Items.FindOneAndDeleteAsync(x => x.Id == id);
@@ -76,7 +76,7 @@ public class ItemsController : Controller
     [Route("GetAll")]
     public async Task<ActionResult> GetAll()
     {
-        var model = await _context.GetAllItems();
+        var model = await _context.Items.Find(_ => true).ToListAsync();
         return Ok(model);
     }
     

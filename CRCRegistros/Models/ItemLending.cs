@@ -3,18 +3,22 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CRCRegistros.Models;
 
-public class Emprestimo
+public class ItemLending
 {
-    [Key]
-    public int Id { get; set; }
-    [Required]
+
+    public string Id { get; set; }
+
     public string Name { get; set; }
-    [Required]
+
     public string Code { get; set; }
-    [Required]
-    public int CategoryId { get; set; }
-    [Required]
+
+    public string CategoryId { get; set; }
+
     public DateTime Date { get; set; }
+
+    public string StudentName { get; set; }
+
+    public string StudentId { get; set; }
     
 
 }

@@ -4,7 +4,7 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace CRCRegistros.Models;
 
-public class Items
+public class Item
 {
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
@@ -13,6 +13,12 @@ public class Items
     public string Name { get; set; }
     
     public string Code { get; set; }
+    
+    public bool IsLend { get; set; }
+
+    public string LendeeName { get; set; }
+
+    public string LendeeId { get; set; }
     
     [BsonRepresentation(BsonType.ObjectId)]
     public string CategoryId { get; set; }
