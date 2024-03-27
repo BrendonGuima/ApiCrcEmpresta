@@ -31,11 +31,8 @@ public class MongoDbContext
     {
         await _usersCollection.InsertOneAsync(user);
     }
+    
     //Items
-    public async Task CreateItem(Items item)
-    {
-        await _itemsCollection.InsertOneAsync(item);
-    }
     public async Task<IEnumerable<Items>> GetAllItems()
     {
         return await _itemsCollection.Find(_ => true).ToListAsync();

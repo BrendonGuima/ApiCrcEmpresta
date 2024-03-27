@@ -12,7 +12,7 @@ namespace CRCRegistros.Controllers;
 public class ItemsController : Controller
 {
     private readonly MongoDbContext _context;
-
+    
     public ItemsController(MongoDbContext context)
     {
         _context = context;
@@ -25,7 +25,7 @@ public class ItemsController : Controller
         await _context.Items.InsertOneAsync(item);
 
         var categoryFilter = Builders<Category>.Filter.Eq(c => c.Id, item.CategoryId);
-        var category = await _context.Category.FindOneAndUpdateAsync(
+        await _context.Category.FindOneAndUpdateAsync(
             categoryFilter,
             Builders<Category>.Update.Push(c => c.Items, item),
             new FindOneAndUpdateOptions<Category> { ReturnDocument = ReturnDocument.After }
@@ -34,15 +34,18 @@ public class ItemsController : Controller
         return Ok(item);
     }
     
-    
-    [HttpGet]
-    [Route("GetAll")]
-    public async Task<ActionResult> GetAll()
+    [HttpPut("{id}")]
+    public async Task<ActionResult> UpdateItemName(string id, [FromBody] Items newItem)
     {
-        var model = await _context.GetAllItems();
-        return Ok(model);
-    }
+        var item = await _context.Items.Find(i => i.Id == id).FirstOrDefaultAsync();
+        if (item == null) return NotFound();
 
+        item.Name = newItem.Name;
+        await _context.Items.ReplaceOneAsync(i => i.Id == id, item);
+
+        return NoContent();
+    }
+    
     [HttpDelete("{id}")]
     public async Task<ActionResult> Delete(string id)
     {
@@ -59,4 +62,23 @@ public class ItemsController : Controller
 
         return NoContent();
     }
+    
+    [HttpGet]
+    [Route("Get/{id}")]
+    public async Task<ActionResult> GetById(string id)
+    {
+        var items = await _context.Items.Find(i => i.Id == id).FirstOrDefaultAsync();
+        if (items == null)return NotFound();
+        return Ok(items);
+    }
+    
+    [HttpGet]
+    [Route("GetAll")]
+    public async Task<ActionResult> GetAll()
+    {
+        var model = await _context.GetAllItems();
+        return Ok(model);
+    }
+    
+    
 }

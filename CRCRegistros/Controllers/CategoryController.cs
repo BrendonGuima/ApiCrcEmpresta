@@ -2,6 +2,7 @@ using CRCRegistros.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ZstdSharp.Unsafe;
+using MongoDB.Driver;
 
 namespace CRCRegistros.Controllers;
 
@@ -11,42 +12,55 @@ namespace CRCRegistros.Controllers;
 public class CategoryController : Controller
 {
     private readonly MongoDbContext _context;
+    
 
    public CategoryController(MongoDbContext context)
     {
         _context = context;
     }
 
-    [HttpPost]
-    [Route("Create")]
+    [HttpPost("Create")]
     public async Task<ActionResult> Create(Category model)
     {
-     await _context.CreateCategory(model);
+        await _context.CreateCategory(model);
         return Ok(model);
     }
 
-//    [HttpDelete("{id}")]
- //   public async Task<ActionResult> Delete(int id)
- //   {
-//        var model = await _context.Category.FindAsync(id);
- //       if (model == null) NotFound();
- //       _context.Category.Remove(model);
- //       await _context.SaveChangesAsync();
-//        return NoContent();
- //   }
-
- //   [HttpGet("{id}")]
-//    public async Task<ActionResult> GetById(int id)
- //   {
- //       var model = await _context.Category
- //           .Include(d => d.Item)
-  //          .FirstOrDefaultAsync(c => c.Id == id);
-//        if (model == null) NotFound();
- //       return Ok(model);
-//    }
+    [HttpPut("{id}")]
+    public async Task<ActionResult> UpdateCategoryName(string id, [FromBody] Category newCategory)
+    {
+        var category = await _context.Category.Find(c => c.Id == id).FirstOrDefaultAsync();
+        if (category == null) return NotFound();
+        category.Name = newCategory.Name;
+        await _context.Category.ReplaceOneAsync(c => c.Id == id, category);
+        return NoContent();
+    }
     
-    [HttpGet]
-    [Route("GetAll")]
+    
+
+    [HttpDelete("{id}")]
+    public async Task<ActionResult> Delete(string id)
+    {
+        await _context.Items.DeleteManyAsync(x => x.CategoryId == id);
+
+        var category = await _context.Category.FindOneAndDeleteAsync(x => x.Id == id);
+        if (category == null) NotFound();
+        return NoContent();
+    }
+
+    [HttpGet("Get/{id}")]
+    public async Task<ActionResult> GetById(string id)
+    {
+        var category = await _context.Category.Find(c => c.Id == id).FirstOrDefaultAsync();
+        if (category == null) return NotFound();
+
+        var items = await _context.Items.Find(i => i.CategoryId == id).ToListAsync();
+        category.Items = items;
+
+        return Ok(category);
+    }
+    
+    [HttpGet("Getall")]
     public async Task<ActionResult> GetAll()
     {
         var model = await _context.GetAllCategorys();
