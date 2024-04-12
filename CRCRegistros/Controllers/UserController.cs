@@ -56,7 +56,8 @@ public class UserController : Controller
         var claims = new ClaimsIdentity(new Claim[]
         {
             new Claim(ClaimTypes.NameIdentifier, model.Id.ToString()),
-            new Claim(ClaimTypes.Role, model.Perfil.ToString())
+            new Claim(ClaimTypes.Role, model.Perfil.ToString()),
+            new Claim(ClaimTypes.Name, model.Name.ToString())
         });
 
         var tokenDescriptor = new SecurityTokenDescriptor
