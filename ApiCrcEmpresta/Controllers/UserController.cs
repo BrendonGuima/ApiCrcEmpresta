@@ -34,7 +34,13 @@ namespace ApiCrcEmpresta.Controllers
         [HttpPost("Create")]
         public async Task<ActionResult> Create(User user)
         {
-            if (user.Perfil != Perfil.Administrador)
+            var token = Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var claims = tokenHandler.ReadJwtToken(token).Claims;
+            var perfilClaim = claims.FirstOrDefault(c => c.Type == "role");
+            Console.WriteLine(perfilClaim.ToString());
+            
+            if ( perfilClaim == null || perfilClaim.Value != "Administrador")
             {
                 return Unauthorized("Apenas administradores têm permissão para criar usuários.");
             }
