@@ -28,7 +28,7 @@ namespace ApiCrcEmpresta.Controllers
             JwtTokenGenerate jwtTokenGenerate = new JwtTokenGenerate();
             var jwt = jwtTokenGenerate.Generate(userDb);
 
-            return Ok(new { JwtToken = jwt });
+            return Ok(jwt);
         }
         
         [HttpPost("Create")]
