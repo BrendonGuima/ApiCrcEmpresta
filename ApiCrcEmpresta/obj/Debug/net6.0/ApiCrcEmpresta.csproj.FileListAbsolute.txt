@@ -1,0 +1,102 @@
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.csproj.AssemblyReference.cache
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.AssemblyInfoInputs.cache
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.AssemblyInfo.cs
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.csproj.CoreCompileInputs.cache
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.sourcelink.json
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\appsettings.json
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\ApiCrcEmpresta.exe
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\ApiCrcEmpresta.deps.json
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\ApiCrcEmpresta.runtimeconfig.json
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\ApiCrcEmpresta.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\ApiCrcEmpresta.pdb
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\AWSSDK.Core.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\DnsClient.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\Snappier.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\staticwebassets\msbuild.ApiCrcEmpresta.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\staticwebassets\msbuild.build.ApiCrcEmpresta.props
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ApiCrcEmpresta.props
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ApiCrcEmpresta.props
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\scopedcss\bundle\ApiCrcEmpresta.styles.css
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEm.12B2DE91.Up2Date
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\refint\ApiCrcEmpresta.dll
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.pdb
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.genruntimeconfig.cache
+C:\Users\1376511\Desktop\Projeto facul\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\ApiCrcEmpresta\obj\Debug\net6.0\ref\ApiCrcEmpresta.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\appsettings.json
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\ApiCrcEmpresta.exe
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\ApiCrcEmpresta.deps.json
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\ApiCrcEmpresta.runtimeconfig.json
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\ApiCrcEmpresta.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\ApiCrcEmpresta.pdb
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\AWSSDK.Core.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\DnsClient.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\Snappier.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.csproj.AssemblyReference.cache
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.AssemblyInfoInputs.cache
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.AssemblyInfo.cs
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.csproj.CoreCompileInputs.cache
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\obj\Debug\net6.0\scopedcss\bundle\ApiCrcEmpresta.styles.css
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.csproj.CopyComplete
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\obj\Debug\net6.0\refint\ApiCrcEmpresta.dll
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.pdb
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\obj\Debug\net6.0\ApiCrcEmpresta.genruntimeconfig.cache
+C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\src\BackendApi\ApiCrcEmpresta\obj\Debug\net6.0\ref\ApiCrcEmpresta.dll
