@@ -18,7 +18,9 @@ public class History
     [Required] 
     public string CategoryId { get; set; }
     [Required]
-    public DateTime Date { get; set; }
+    public DateTime DateLend { get; set; }
+    [Required]
+    public DateTime? DateReturn { get; set; }
     [Required]
     public string StudentName { get; set; }
     [Required]

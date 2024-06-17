@@ -1,3 +1,4 @@
+using Amazon.Runtime.Internal;
 using ApiCrcEmpresta;
 using ApiCrcEmpresta.Models;
 using CRCRegistros.Models;
@@ -38,7 +39,8 @@ public class ItemLendingController : Controller
       CategoryId = item.CategoryId,
       Name = item.Name,
       Code = item.Code,
-      Date = DateTime.Now,
+      DateLend = DateTime.Now,
+      DateReturn = null,
       StudentName = request.StudentName,
       StudentId = request.StudentId
      };
@@ -51,14 +53,15 @@ public class ItemLendingController : Controller
          CategoryId = item.CategoryId,
          Name = item.Name,
          Code = item.Code,
-         Date = DateTime.Now,
+         DateLend = DateTime.Now,
+         DateReturn = null,
          StudentName = itemLending.StudentName,
          StudentId = itemLending.StudentId
      };
      
      await _context.HistoryLendItems.InsertOneAsync(historyLending);
 
-     return Ok(item);
+     return NoContent();
     }
     
     [HttpPost("Return/{id}")]
@@ -67,29 +70,36 @@ public class ItemLendingController : Controller
         var itemLending = await _context.Items.FindOneAndUpdateAsync(
             Builders<Item>.Filter.Eq(i => i.Id, id),
             Builders<Item>.Update.Set(i => i.IsLend, false)
+                      .Set(i => i.LendeeName, null)
+                      .Set(i => i.LendeeId, null)
         );
         if (itemLending == null) NotFound();
         //History
-        var historyLending = new History()
+        var filter = Builders<History>.Filter.Eq(h => h.ItemId, id);
+        var sort = Builders<History> .Sort.Descending(h => h.DateLend);
+        var latestHistory = await _context.HistoryLendItems.Find(filter).Sort(sort).FirstOrDefaultAsync();
+
+        if (latestHistory == null)
         {
-            ItemId = itemLending.Id,
-            CategoryId = itemLending.CategoryId,
-            Name = itemLending.Name,
-            Code = itemLending.Code,
-            Date = DateTime.Now
-            
-        };
-        await _context.HistoryLendItems.InsertOneAsync(historyLending);
+            return NotFound(); // Nenhum histórico encontrado para atualizar
+        }
+
+        var update = Builders<History>.Update.Set(h => h.DateReturn, DateTime.Now);
+
+
+        var updateResult = await _context.HistoryLendItems.UpdateOneAsync(
+     Builders<History>.Filter.Eq(h => h.Id, latestHistory.Id),
+     update
+ );
+
+        if (updateResult.ModifiedCount == 0)
+        {
+            return NotFound(); // Pode ser útil lidar com o caso em que não há histórico para atualizar
+        }
         await _context.ItemLending.FindOneAndDeleteAsync(x => x.Id == id);
         return NoContent();
     }
 
-    [HttpGet]
-    public async Task<ActionResult> GetAll()
-    {
-        var model = await _context.ItemLending.Find(_ => true).ToListAsync();
-        return Ok(model);
-    }
 
     [HttpGet("History")]
     public async Task<ActionResult> GetHistory()

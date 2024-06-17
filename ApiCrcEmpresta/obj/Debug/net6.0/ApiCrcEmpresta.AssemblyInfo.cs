@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiCrcEmpresta")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9155faa11239f138e0a7314f392c36a0b26d7af4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef18d52c0dd6a9f01e107f7da73ab588c537aaed")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiCrcEmpresta")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiCrcEmpresta")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
