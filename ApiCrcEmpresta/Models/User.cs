@@ -9,11 +9,12 @@ namespace ApiCrcEmpresta.Models
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
-
+        [BsonRequired]
         public string Name { get; set; }
-
+        [BsonRequired]
         public string Password { get; set; }
 
+        [BsonRequired]
         public Perfil Perfil { get; set; }
     }
 }

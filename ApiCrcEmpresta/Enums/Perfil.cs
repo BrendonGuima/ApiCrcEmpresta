@@ -3,6 +3,6 @@
     public enum Perfil
     {
         Administrador,
-        Usuario
+        Usuario 
     }
 }

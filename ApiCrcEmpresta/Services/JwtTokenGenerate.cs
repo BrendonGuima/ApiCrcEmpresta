@@ -15,7 +15,8 @@ namespace ApiCrcEmpresta.Services
             var claims = new ClaimsIdentity(new Claim[]
             {
             new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-            new Claim(ClaimTypes.Role, user.Perfil.ToString())
+            new Claim(ClaimTypes.Role, user.Perfil.ToString()),
+            new Claim(ClaimTypes.Name, user.Name)
             });
 
             var tokenDescriptor = new SecurityTokenDescriptor
