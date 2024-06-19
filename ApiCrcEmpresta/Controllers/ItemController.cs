@@ -39,6 +39,8 @@ public class ItemController : ControllerBase
         if (item == null) return NotFound();
 
         item.Name = newItem.Name;
+        item.Code = newItem.Code;
+        item.CategoryId = newItem.CategoryId;
         await _MongoDbContext.Items.ReplaceOneAsync(i => i.Id == id, item);
 
         return NoContent();
